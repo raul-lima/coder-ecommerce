@@ -1,9 +1,10 @@
 import ShoppingIcon from "../../assets/shopping-cart-simple.svg";
+import "./cart-icon.scss";
 
 export function CartIcon() {
   return (
-    <div className="cart-icon-container">
-      <img src={ShoppingIcon} alt="" />
-    </div>
+    <>
+      <img className="cart-icon" src={ShoppingIcon} alt="" />
+    </>
   );
 }

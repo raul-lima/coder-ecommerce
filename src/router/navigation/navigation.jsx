@@ -4,16 +4,18 @@ import "./navigation.scss";
 export function Navigation() {
   return (
     <>
-      <div className="navigation">
+      <nav className="navigation">
         <div className="logo-container">
-          <h1>Coder E-commerce</h1>
+          <img src="src\assets\image-removebg-preview.png" alt="Logo do site" />
         </div>
-        <div className="nav-links-container">
-          <a className="nav-link">SHOP</a>
-          <a className="nav-link">LOGIN</a>
+        <div className="nav-links">
+          <a className="nav-links__link">Home</a>
+          <a className="nav-links__link">Restaurantes</a>
+          <a className="nav-links__link">Ofertas</a>
+          <a className="nav-links__link">Ajuda</a>
           <CartIcon />
         </div>
-      </div>
+      </nav>
     </>
   );
 }
