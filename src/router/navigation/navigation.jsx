@@ -1,5 +1,6 @@
 import { CartIcon } from "../../components/cart-icon/cart-icon";
 import "./navigation.scss";
+import { ItemListContainer } from "../../components/itemlist/ItemListContainer";
 
 export function Navigation() {
   return (
@@ -13,7 +14,10 @@ export function Navigation() {
           <a className="nav-links__link">Restaurantes</a>
           <a className="nav-links__link">Ofertas</a>
           <a className="nav-links__link">Ajuda</a>
-          <CartIcon />
+          <div className="cart-container">
+            <CartIcon />
+            <ItemListContainer />
+          </div>
         </div>
       </nav>
     </>
