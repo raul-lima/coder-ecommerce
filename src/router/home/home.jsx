@@ -1,30 +1,30 @@
-import { Categories } from "../../components/categories/categories";
+import { Categories } from "../../components/categories/Categories";
 
 const categories = [
   {
     id: 1,
-    title: "Chapéus",
-    imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    title: "Lanches",
+    imageUrl: "/src/assets/lanches.jpg",
   },
   {
     id: 2,
-    title: "Jaquetas",
-    imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    title: "Grelhados",
+    imageUrl: "/src/assets/grelhados.jpg",
   },
   {
     id: 3,
-    title: "Tenis",
-    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    title: "Pizzas",
+    imageUrl: "/src/assets/pizzas.jpg",
   },
   {
     id: 4,
-    title: "Mulheres",
-    imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+    title: "Bebidas",
+    imageUrl: "/src/assets/bebidas.jpg",
   },
   {
     id: 5,
-    title: "Homens",
-    imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+    title: "Sobremesas",
+    imageUrl: "/src/assets/sobremesas.jpg",
   },
 ];
 

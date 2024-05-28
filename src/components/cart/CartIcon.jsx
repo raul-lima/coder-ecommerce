@@ -1,5 +1,5 @@
 import ShoppingIcon from "../../assets/shopping-cart-simple.svg";
-import "./cart-icon.scss";
+import "./CartIcon.scss";
 
 export function CartIcon() {
   return (
